@@ -1,0 +1,55 @@
+.col-lg-4{
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+
+.col-lg-6{
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+
+.card{
+    border-radius: 5px;
+    width: 18rem;
+    box-shadow: 3px 6px 8px 3px rgba(100, 100, 100, 0.3);
+}
+
+/*inputs*/
+.form-group{
+    padding: 1%;
+}
+
+.mapsContact{
+    width: 500px;
+    height: 350px; 
+    border-radius: 5%;    
+}
+
+.boxContact{
+    width: 200px;
+    padding: 15px;
+    display: flex;
+}
+
+/*Media query*/
+@media(max-width: 426px){
+    .card{
+        width: 17rem;
+    }
+    .mapsContact{
+        height: 300px;
+    }
+}
+@media(max-width: 376px){
+    .card{
+        width: 16rem;
+    }
+}
+@media(max-width: 320px){
+    .card{
+        width: 15rem;
+    }
+    .mapsContact{
+        height: 200px;
+    }
+}

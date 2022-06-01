@@ -1,0 +1,66 @@
+*{
+    margin: auto;
+    font-family: sans-serif;
+}
+
+
+header{
+    display: flex;
+    padding: 2%;
+}
+
+/*Buttons in general*/
+.navBar a{
+    display: inline-block;
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.navBar a:hover{
+    background-color: #8255cb;
+    color: white;
+    transition: 0.9s;
+}
+
+/*Button active - main*/
+.navBar a.active{
+    background-color: #6f1398;
+    color: white;
+    margin-right: 2px;
+}
+.navBar a.active:hover{
+    background-color: #8255cb;
+    color: white;
+    transition: 0.9s;
+}
+
+
+/*Media query*/
+@media(max-width: 426px){
+    header{
+        padding: 3%;
+    }
+    .navBar a{
+        padding: 7px;
+        font-size: 11px;
+    }
+}
+
+/*
+#6f1398 //boa
+#5d0e87
+#4b0a76
+#380564
+#260053
+*/
+
+/*
+#8255cb //boa
+#9c6dd8 //boa
+#b685e5 //boa
+#cf9cf2
+#e9b4ff
+*/
