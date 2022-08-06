@@ -13,8 +13,12 @@
   margin-bottom: 5%;
 }
 
+.imgAlign{
+  text-align: center;
+}
+
 .imgMe{
-  width: 100%;
+  width: 90%;
 }
 
 /*Media query*/

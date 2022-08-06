@@ -11,8 +11,12 @@
   font-family: 'Roboto Mono', monospace;
 }
 
+.imgAlign{
+  text-align: center;
+}
+
 .imgHome{
-  width: 100%;
+  width: 90%;
 }
 
 /*Media query*/

@@ -18,7 +18,7 @@ const Home = () => {
               <h1 className="contentHome">"formação": Desenv. de Sistemas</h1>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 imgAlign">
               <img className="imgHome" src={Profile} alt="profile-me" />
           </div>
         </div>

@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import NavBar from "../../components/navBar";
 import ChurrasApp from "../../assets/Projects/churras-app/img-home.jpeg";
-import FrontendTCC from "../../assets/Projects/frontend-tcc/img-login.jpg";
+import FrontendTCC from "../../assets/Projects/frontend-tcc/x.png";
 
 const Projects = () => {
   return (
@@ -24,12 +24,10 @@ const Projects = () => {
               </h1>
               <h1 className="contentProjects">
                 Basicamente sua função é realizar o cálculo com base nas
-                informações descritas para o cálculo, sendo o resultado a quantidade média
-                do que será preciso de cada item descrito.
+                informações descritas para o cálculo, sendo o resultado a
+                quantidade média do que será preciso de cada item descrito.
               </h1>
-              <h1 className="contentProjects">
-                Mais informações:
-              </h1>
+              <h1 className="contentProjects">Mais informações:</h1>
               <button className="linkProjects">
                 <a
                   href="https://github.com/VitorBsdc/churras_calculator"
@@ -48,15 +46,26 @@ const Projects = () => {
               </button>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 imgAlign">
             <img className="imgProjects" src={ChurrasApp} alt="img-home" />
           </div>
           <div class="col-lg-6">
             <div className="cardProjects">
               <h1 className="contentProjects">Front-end TCC</h1>
-              <h1 className="contentProjects">Site elaborado utilizando como tecnologia principal para realização do frontend a biblioteca javascript React JS.</h1>
-              <h1 className="contentProjects">Sendo este o TCC da turma, o objetivo final era construir um dashboard que fosse capaz de administrar dados de máquinas industriais presentes nas dependências do Senai.</h1>
-              <h1 className="contentProjects">Neste projeto fiz parte da equipe responsável pelo Front-end, onde colaborei com designers além de codificar alguns dos elementos do site junto a minha equipe.</h1>
+              <h1 className="contentProjects">
+                Site elaborado utilizando como tecnologia principal para
+                realização do frontend a biblioteca javascript React JS.
+              </h1>
+              <h1 className="contentProjects">
+                Sendo este o TCC da turma, o objetivo final era construir um
+                dashboard que fosse capaz de administrar dados de máquinas
+                industriais presentes nas dependências do Senai.
+              </h1>
+              <h1 className="contentProjects">
+                Neste projeto fiz parte da equipe responsável pelo Front-end,
+                onde colaborei com designers além de codificar alguns dos
+                elementos do site junto a minha equipe.
+              </h1>
               <h1 className="contentProjects">Mais informações:</h1>
               <button className="linkProjects">
                 <a
@@ -76,8 +85,9 @@ const Projects = () => {
               </button>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 imgAlign">
             <img className="imgProjects" src={FrontendTCC} alt="img-login" />
+            <h1 className="legendProjects">Sem acesso a imagens do projeto</h1>
           </div>
         </div>
       </div>

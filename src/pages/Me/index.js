@@ -9,7 +9,7 @@ const Me = () => {
       <NavBar />
       <div class="container">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-4 imgAlign">
             <img className="imgMe" src={Profile} alt="profile-me" />
           </div>
           <div class="col-lg-6">

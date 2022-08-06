@@ -39,8 +39,20 @@
     color: white;
 }
 
+.imgAlign{
+  text-align: center;
+}
+
 .imgProjects{
-  width: 100%;
+  width: 75%;
+}
+
+.legendProjects{
+  font-size: 14.4px;
+  font-family: 'Roboto Mono', monospace;
+  text-align: justify;
+  margin-top: 5%;
+  text-align: center;
 }
 
 /*Media query*/
