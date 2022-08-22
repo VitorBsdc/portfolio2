@@ -62,6 +62,7 @@ const Contact = () => {
           <div class="col-lg-6">
             <div className="row align-items-center">
               <iframe
+                title="mapa-região"
                 class="mapsContact"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7307.99250051306!2d-46.75020930662962!3d-23.676092088202143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5189a2638035%3A0xd38d134b6566c66c!2sPiraporinha%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1653333130013!5m2!1spt-BR!2sbr"
               ></iframe>
