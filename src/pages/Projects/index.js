@@ -31,8 +31,8 @@ const Projects = () => {
               <button className="linkProjects">
                 <a
                   href="https://github.com/VitorBsdc/churras_calculator"
+                  rel="noreferrer"
                   target="_blank"
-                  rel="link-1"
                 >
                   Repositório Git Hub
                 </a>
@@ -40,8 +40,8 @@ const Projects = () => {
               <button className="linkProjects">
                 <a
                   href="https://www.linkedin.com/posts/vitor-benedito_reactnative-desenvolvimento-trabalho-activity-6922333015712890881-0VVS?utm_source=linkedin_share&utm_medium=member_desktop_web"
+                  rel="noreferrer"
                   target="_blank"
-                  rel="link-2"
                 >
                   Publicação Linkedin
                 </a>
@@ -72,8 +72,8 @@ const Projects = () => {
               <button className="linkProjects">
                 <a
                   href="https://github.com/VitorBsdc/frontend_tcc_senai"
+                  rel="noreferrer"
                   target="_blank"
-                  rel="link-3"
                 >
                   Repositório Git Hub
                 </a>
@@ -81,8 +81,8 @@ const Projects = () => {
               <button className="linkProjects">
                 <a
                   href="https://www.linkedin.com/posts/vitor-benedito_desenvolvimento-formado-tcc-activity-6941494312039792640-kups?utm_source=linkedin_share&utm_medium=member_desktop_web"
+                  rel="noreferrer"
                   target="_blank"
-                  rel="link-4"
                 >
                   Publicação Linkedin
                 </a>
